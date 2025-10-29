@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Fichero7 {
-    // Crea carpeta por categoría y archivo catalogo.txt
+
     public static void organizarBiblioteca(String categoria) {
         File dirCategoria = new File("C:\\Users\\AlumnoAfternoon\\Documents\\Pruebas Java\\" + categoria);
         File catalogo = new File(dirCategoria, "catalogo.txt");
@@ -25,7 +25,7 @@ public class Fichero7 {
         }
     }
 
-    // Verifica si existe un libro, si no, pregunta si lo crea
+
     public static void verificarLibro(String categoria, String libro) {
         File dirCategoria = new File("C:\\Users\\AlumnoAfternoon\\Documents\\Pruebas Java\\" + categoria);
         File libroFile = new File(dirCategoria, libro + ".txt");
